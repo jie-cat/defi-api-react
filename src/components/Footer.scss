@@ -1,0 +1,49 @@
+.footer {
+  background-color: rgba(205, 209, 228, 0.5);
+  clip-path: polygon(0 0, 100% 5%, 100% 100%, 0 95%);
+  .container {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    justify-content: space-between;
+    padding: 5rem;
+    h1 {
+      font-family: "Open Sans", sans-serif;
+    }
+    .col {
+      display: flex;
+      flex-direction: column;
+      margin-top: 2rem;
+      .bar {
+        border: 2px solid var(--primary-color);
+        width: 30px;
+        margin: 0.5rem 0;
+      }
+      a {
+        padding-top: 0.1rem;
+        .icon {
+          margin-right: 1rem;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .footer {
+    .container {
+      grid-template-columns: repeat(2, 1fr);
+    }
+  }
+
+  .col-1 {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 478px) {
+  .footer {
+    .container {
+      grid-template-columns: 1fr;
+    }
+  }
+}

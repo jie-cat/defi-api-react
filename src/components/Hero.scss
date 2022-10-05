@@ -1,0 +1,38 @@
+.hero {
+  .container {
+    padding: 3rem 1rem;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    .left {
+      h1 {
+        font-family: "Open Sans", sans-serif;
+      }
+      p {
+        padding: 1.5rem 0;
+      }
+    }
+    .right {
+      .img-container {
+        padding: 3rem 2rem;
+        display: flex;
+        justify-self: center;
+        img {
+          width: 100%;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 940px) {
+  .hero {
+    .container {
+      display: grid;
+      grid-template-columns: 1fr;
+      padding: 2.5rem;
+      .left {
+        padding: 1rem;
+      }
+    }
+  }
+}

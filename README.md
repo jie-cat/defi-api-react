@@ -2,9 +2,29 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Description
 
-In the project directory, you can run:
+用ReactJS切版, 練習透過CoinGecko串接API得到Crypto即時資訊
+
+
+
+<table>
+<tr>
+  <td valign="top"><img src="https://github.com/jie-cat/defi-api-react/blob/main/src/assets/project.png" width="650"></td>
+  <td valign="top"><img src="https://github.com/jie-cat/defi-api-react/blob/main/src/assets/rwd.png" width="400"></td>
+</tr>
+</table>
+
+## Requirement
+
+前端（Frontend）：NVM、Yarn、Node.js
+
+## Build Setup (Local)
+
+1. `yarn create react-app defi-api-react`
+2. `yarn add node-sass`
+3. `yarn add react-icons`
+4. `yarn add axios`
 
 ### `yarn start`
 
